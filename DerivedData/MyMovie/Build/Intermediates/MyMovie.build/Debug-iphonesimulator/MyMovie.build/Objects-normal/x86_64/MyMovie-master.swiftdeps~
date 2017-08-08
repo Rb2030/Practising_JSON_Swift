@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "3e0a8fee5017953cc18294b5e68091ec"
+build_time: [555538744, 775871000]
+inputs:
+  "/Users/Ross/Desktop/Swift Work/MyMovie/MyMovie/ViewController.swift": [555522987, 0]
+  "/Users/Ross/Desktop/Swift Work/MyMovie/MyMovie/AppDelegate.swift": !dirty [555538744, 0]
+  "/Users/Ross/Desktop/Swift Work/MyMovie/MyMovie/Movie.swift": [555537745, 0]

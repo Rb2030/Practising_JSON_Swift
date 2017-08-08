@@ -1,0 +1,32 @@
+{ "menu": [{
+            "name":"Coke",
+            "price": 20,
+            "category":"drinks",
+        },
+        {
+            "name":"pepsi",
+            "price": 20,
+            "category":"drinks",
+        },
+        {
+            "name":"water",
+            "price": 20,
+            "category":"drinks",
+        },
+        {
+            "name":"hamburger",
+            "price": 40,
+            "category":"food",
+        },
+        {
+            "name":"fries",
+            "price": 20,
+            "category":"food",
+        },
+        {
+            "name":"pizza",
+            "price": 20,
+            "category":"food",
+        }
+    ]
+}}

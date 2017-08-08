@@ -1,0 +1,37 @@
+[
+ {
+  "file": "/Users/Ross/Desktop/Swift Work/MyMovie/MyMovie/AppDelegate.swift",
+  "offset": 2300,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/Ross/Desktop/Swift Work/MyMovie/MyMovie/AppDelegate.swift",
+  "offset": 2319,
+  "remove": 3,
+  "text": "e",
+ },
+ {
+  "file": "/Users/Ross/Desktop/Swift Work/MyMovie/MyMovie/AppDelegate.swift",
+  "offset": 2388,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/Ross/Desktop/Swift Work/MyMovie/MyMovie/AppDelegate.swift",
+  "offset": 2514,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/Ross/Desktop/Swift Work/MyMovie/MyMovie/AppDelegate.swift",
+  "offset": 2569,
+  "remove": 3,
+  "text": " ",
+ },
+ {
+  "file": "/Users/Ross/Desktop/Swift Work/MyMovie/MyMovie/AppDelegate.swift",
+  "offset": 2576,
+  "text": "Serialization.",
+ }
+]
