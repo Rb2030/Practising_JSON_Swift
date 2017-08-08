@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "740d980f7cb0a241ef19a19a9d265cc2"
+build_time: [555522930, 76438000]
+inputs:
+  "/Users/Ross/Desktop/Swift Work/JSONpractice/JSONpractice/ViewController.swift": [555510594, 0]
+  "/Users/Ross/Desktop/Swift Work/JSONpractice/JSONpractice/AppDelegate.swift": !dirty [555522859, 0]
+  "/Users/Ross/Desktop/Swift Work/JSONpractice/JSONpractice/menu.swift": [555512368, 0]
