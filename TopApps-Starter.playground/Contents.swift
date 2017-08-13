@@ -26,8 +26,19 @@ import PlaygroundSupport
 PlaygroundPage.current.needsIndefiniteExecution = true
 
 DataManager.getTopAppsDataFromFileWithSuccess { (data) -> Void in
-  // TODO: Process data
+
+    guard let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else {
   
-  
-  PlaygroundPage.current.finishExecution()
+        PlaygroundPage.current.finishExecution()
+    }
+    
+    guard let feed = json?["feed"] as? [String: Any],
+        let apps = feed["entry"] as? [[String: Any]],
+        let firstApp = apps.first else {
+            PlaygroundPage.current.finishExecution()
+    }
+    
+    let app = App(json: firstApp)
+    print(app ?? "Failed to initialize")
+    
 }
