@@ -32,5 +32,18 @@ public struct App {
   public init(name: String, link: String) {
     self.name = name
     self.link = link
-  }
+    }
+
+public init?(json: [String: Any]) {
+    guard let container = json["im:name"] as? [String: Any],
+    let name = container["label"] as? String,
+    let id = json["id"] as? [String: Any],
+    let link = id["label"] as? String else {
+        return nil
+    }
+    
+self.name = name
+self.link = link
 }
+}
+
